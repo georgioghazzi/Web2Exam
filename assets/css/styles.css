@@ -1,0 +1,167 @@
+/* Global */
+body,
+html {
+    margin: 0;
+    font-size: 20px;
+    overflow-x: hidden;
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.primary-color {
+    color: #343a40;
+}
+.fa-ul li{
+    margin-bottom: 1em;
+}
+.white-color{
+    color:#fff;
+}
+
+
+
+/* End Of Global */
+/* Navbar CSS */
+.navbar-nav li {
+    margin-right: 20px;
+}
+
+/* End Of Navbar CSS */
+
+
+/* Index CSS */
+#banner {
+    height: 400px;
+    background: url('../media/banner2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.banner-text {
+    padding-top: 10%;
+
+}
+
+.banner-text-header {
+    text-align: center;
+    color: #fff;
+    text-shadow: 0px 0px 7px rgba(5, 5, 5, 0.82);
+}
+
+#aboutus {
+    height: 600px;
+   
+}
+
+th{
+    color:#fff;
+    background:#454d55;
+}
+td{
+    background:#eee;
+}
+.aboutus-img {
+    margin-left: 40%;
+}
+
+.aboutus-text p {
+    font-size: 16px;
+    line-height: 23px;
+    width: 60%;
+}
+
+
+
+#services { 
+    height: 700px;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+}
+
+.packages{
+    border:1px solid #fff;
+}
+
+.card {
+   border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+  }
+.card-price {
+    font-size: 3rem;
+    margin: 0;
+    color:#000;
+  }
+  
+.card-price .period {
+    font-size: 0.8rem;
+  }
+  
+   .text-muted {
+    opacity: 0.7;
+  }
+  .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+
+
+
+
+/* End Of CSS Index */
+
+
+/* Our Story CSS */
+#aboutus-page{
+
+    padding-bottom:50px;
+}
+
+.aboutus-page-text{
+    font-size:16px;
+    line-height: 20px;
+    padding:0 55px;
+}
+
+/* End Of Our Story CSS */
+
+
+/* Services CSS */
+#services-Page{
+
+}
+
+/* End Of Services CSS */
+
+
+/* Footer CSS */
+#footer {
+    background: #343a40;
+    height: 50px;
+}
+
+
+.copyright {
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+}
+
+/* End Of Footer CSS */
